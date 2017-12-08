@@ -2678,9 +2678,7 @@ int cryptfs_enable_internal(char *howarg, int crypt_type, const char *passwd,
 
         /* restart the framework. */
         /* Create necessary paths on /data */
-        if (prep_data_fs()) {
-            goto error_shutting_down;
-        }
+        prep_data_fs();
 
         /* Ugh, shutting down the framework is not synchronous, so until it
          * can be fixed, this horrible hack will wait a moment for it all to
