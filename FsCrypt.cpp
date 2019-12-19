@@ -396,6 +396,7 @@ static bool load_all_de_keys() {
 
 bool fscrypt_initialize_systemwide_keys() {
     LOG(INFO) << "fscrypt_initialize_systemwide_keys";
+    bool wrapped_key_supported = false;
 
     if (s_systemwide_keys_initialized) {
         LOG(INFO) << "Already initialized";
