@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a33f30c_6e0ba653",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000165
+      },
+      "writtenOn": "2022-06-18T09:08:12Z",
+      "side": 1,
+      "message": "Track vendor/qcom/opensource/cryptfs_hw",
+      "revId": "06d9c7719e4c76c3cac57ff125d530650d6be527",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554"
+    }
+  ]
+}
